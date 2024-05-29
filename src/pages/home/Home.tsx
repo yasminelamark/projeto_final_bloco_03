@@ -3,11 +3,11 @@
 
 function Home() {
     return (
-        <> 
+        <>
         
-        
+
             <div className="
-                bg-green-300
+                bg-green-500 
                 flex 
                 justify-center
                 ">
@@ -29,12 +29,19 @@ function Home() {
                             text-5xl 
                             font-bold
                             '>
-                            FarmaNature
+                            Bem Vindo!
                         </h2>
-                        <p className='text-xl'>A natureza em suas mãos</p>
+                        <p className='text-xl'>FarmaNature lugar de medicamentos e cosméticos naturais é aqui!</p>
 
                         <div className="flex justify-around gap-4">
-                           
+                            <button className='
+                                    rounded
+                                    bg-red-600 
+                                    text-white 
+                                    py-2 
+                                    px-4
+                                    '>
+                            </button>
                         </div>
                     </div>
 
@@ -47,7 +54,8 @@ function Home() {
                     </div>
                 </div>
             </div>
-            
+
+        
         </>
     )
 }

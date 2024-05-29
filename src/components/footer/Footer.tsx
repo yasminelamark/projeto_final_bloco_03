@@ -1,4 +1,4 @@
-﻿import { FacebookLogo, InstagramLogo, LinkedinLogo } from '@phosphor-icons/react'
+﻿import { GithubLogo, InstagramLogo, LinkedinLogo } from '@phosphor-icons/react'
 
 function Footer() {
 
@@ -18,8 +18,8 @@ function Footer() {
                         <a href="https://www.instagram.com/yazahmen_/" target="_blank">
                             <InstagramLogo size={48} weight='bold' />
                         </a>
-                        <a href="https://www.facebook.com/yasmine.lamark?locale=pt_BR" target="_blank">
-                            <FacebookLogo size={48} weight='bold' />
+                        <a href="https://github.com/yasminelamark" target="_blank">
+                            <GithubLogo size={48} weight='bold' />
                         </a>
                     </div>
                 </div>

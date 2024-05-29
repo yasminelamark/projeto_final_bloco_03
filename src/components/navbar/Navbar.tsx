@@ -1,4 +1,5 @@
 import { User, ShoppingCart, MagnifyingGlass } from "@phosphor-icons/react"
+import { Link } from "react-router-dom"
 
 function Navbar() {
 
@@ -6,7 +7,7 @@ function Navbar() {
 
         <div className='
             w-full 
-            bg-green-800  
+            bg-slate-800  
             text-white 
             flex 
             justify-center 
@@ -41,13 +42,13 @@ function Navbar() {
                     </form>
                 </div>
 
-                <div className='flex gap-4 py-4'>
-                    <div className='hover:underline'>Produtos</div>
-                    <div className='hover:underline'>Categorias</div>
-                    <div className='hover:underline'>CadCategorias</div>
+                <div className='flex gap-4 py-7'>
+                    <Link to='/categorias' className='hover:underline'>Categorias</Link>
+                    <Link to='/cadcategoria' className='hover:underline'>Cadastrar Categoria</Link>
                     <User size={32} weight='bold' />
                     <ShoppingCart size={32} weight='bold' />
                 </div>
+                
             </div>
         </div>
     )
